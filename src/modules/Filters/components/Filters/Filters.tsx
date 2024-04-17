@@ -17,22 +17,22 @@ export const Filters = () => {
     {
       id: "0",
       label: "Без пересадок",
-      isChecked: isParam("without_transfers"),
+      isChecked: isParam("0"),
     },
     {
       id: "1",
       label: 1,
-      isChecked: isParam("one_transfers"),
+      isChecked: isParam("1"),
     },
     {
       id: "2",
       label: 2,
-      isChecked: isParam("two_transfers"),
+      isChecked: isParam("2"),
     },
     {
       id: "3",
       label: 3,
-      isChecked: isParam("three_transfers"),
+      isChecked: isParam("3"),
     },
   ]);
 

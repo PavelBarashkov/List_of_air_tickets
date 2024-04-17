@@ -1,7 +1,7 @@
 .btn {
     width: 100%;
     padding: 5px 15px;
-
+    color: white;
     background-color: var(--background-color-btn);
     border: 1px solid var(--background-color-btn);
     border-radius: 8px;
