@@ -1,0 +1,84 @@
+.card {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  color: var(--color-main);
+  background-color: var(--background-color-70);
+
+  border: 1px solid rgba(156, 156, 156, 0.24);
+  border-radius: 10px;
+
+  box-shadow: 8px 14px 7px -4px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 8px 14px 7px -4px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 8px 14px 7px -4px rgba(0, 0, 0, 0.07);
+}
+
+.card_logo {
+   background-color: var(--background-color-ticket-logo);
+  background-image: url(../../assets/ticketLogo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  max-width: 100%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.col_price {
+  padding: 22px 15px;
+  width: 32%;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+
+  border-right: 1px solid rgba(156, 156, 156, 0.24);
+}
+
+.col {
+  padding: 22px 15px 22px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_time {
+  font-size: 48px;
+}
+
+.date {
+  color: gray;
+  font-size: 14px;
+}
+
+.col_date {
+  padding-top: 30px;
+  color: gray;
+  align-items: center;
+  position: relative;
+}
+
+.col_date::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  top: 80px;
+  background-color: rgba(156, 156, 156, 0.6);
+}
+
+@media (max-width: 1199px) {
+  .card {
+    align-items: center;
+  }
+  .col {
+    width: 100%;
+    align-items: center;
+  }
+  .col_price {
+    width: 100%;
+  }
+}
+
+

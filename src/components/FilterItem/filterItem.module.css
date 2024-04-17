@@ -1,0 +1,9 @@
+.filter_item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.filter_item label {
+  cursor: pointer;
+}
